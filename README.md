@@ -74,7 +74,39 @@ Please run this yourself to check for any updates on how to cite
 **runRNAseq**.
 
 ``` r
-print(citation('runRNAseq'), bibtex = TRUE)
+print(citation("runRNAseq"), bibtex = TRUE)
+#> To cite package 'runRNAseq' in publications use:
+#> 
+#>   JCSigala (2024). _RNAseq_. doi:10.18129/B9.bioc.runRNAseq
+#>   <https://doi.org/10.18129/B9.bioc.runRNAseq>,
+#>   https://github.com/JCSigala/runRNAseq/runRNAseq - R package version
+#>   0.99.0, <http://www.bioconductor.org/packages/runRNAseq>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Manual{,
+#>     title = {RNAseq},
+#>     author = {{JCSigala}},
+#>     year = {2024},
+#>     url = {http://www.bioconductor.org/packages/runRNAseq},
+#>     note = {https://github.com/JCSigala/runRNAseq/runRNAseq - R package version 0.99.0},
+#>     doi = {10.18129/B9.bioc.runRNAseq},
+#>   }
+#> 
+#>   JCSigala (2024). "RNAseq." _bioRxiv_. doi:10.1101/TODO
+#>   <https://doi.org/10.1101/TODO>,
+#>   <https://www.biorxiv.org/content/10.1101/TODO>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {RNAseq},
+#>     author = {{JCSigala}},
+#>     year = {2024},
+#>     journal = {bioRxiv},
+#>     doi = {10.1101/TODO},
+#>     url = {https://www.biorxiv.org/content/10.1101/TODO},
+#>   }
 ```
 
 Please note that the `runRNAseq` was only made possible thanks to many
